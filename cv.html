@@ -1,0 +1,648 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="abc.css"> 
+    
+</head>
+<body>
+   <div class="navbar">
+
+
+    <div class="logo">
+<img src="pic/manus-removebg-preview.png" alt="" width="50" height="35" >
+<img src="pic/youtub-removebg-preview.png" alt="" width="100" height="30">
+
+</div>
+
+
+<div class="serch">
+<input type="text" width="300">
+<img  src="pic/serch.png" alt="" width="60" height="45" >
+
+<img style="border-radius: 50%;" src="pic/blakm.jpeg" alt="" width="50" height="35" >
+
+</div>
+
+
+
+<div class="bell">
+
+<img src="pic/upvedio-removebg-preview.png" alt="" width="50" height="35" >
+<img src="pic/bell1-removebg-preview.png" alt="" width="50" height="35" >
+<img src="pic/m-removebg-preview.png" alt="" width="50" height="35" >
+<img src="pic/3dot-removebg-preview.png" alt="" width="50" height="35" >
+   
+
+
+</div>
+
+
+   </div> 
+
+
+
+
+
+</body>
+</html> -->
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your YouTube Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo img {
+            width: 90px;
+            height: 40px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input[type="text"] {
+        
+            width: 300px;
+            height: 30px;
+            padding: 5px;
+            border: none;
+            border-radius: 10px;
+            margin-right: 10px;
+            font-size: 14px; /* Adjust font size */
+            background-color: #f1f1f1; /* Background color */
+        }
+
+        .search img {
+            width: 50px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .icons img {
+            margin-right: 15px;
+            width: 40px;
+            height: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <div class="navbar">
+        <div class="logo">
+            <img src="pic/manus-removebg-preview.png" height="50px" alt="Manus Logo">
+            <img src="pic/youtub-removebg-preview.png" alt="YouTube Logo">
+        </div>
+        <div class="search">
+            <input type="text"  placeholder="Search YouTube">
+            <img src="pic/serch-removebg-preview.png" alt="Search Icon">
+            <img src="pic/micro-removebg-preview.png" alt="Microphone Icon" width="20" height="20">
+        </div>
+        <div class="icons">
+            <img src="pic/upvedio-removebg-preview.png" alt="Upload Video">
+            <img src="pic/bell1-removebg-preview.png" alt="Notifications">
+            <img src="pic/m-removebg-preview.png" alt="Profile">
+            <img src="pic/3dot-removebg-preview.png" alt="More Options">
+        </div>
+   </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>🦜 Youtube Clone with HTML & CSS</title>
+  </head>
+  <body>
+   <div>
+      <header class="header">
+        <div class="logo left">
+          <i id="menu" class="material-icons">menu</i>
+          <img src="pic/youtub-removebg-preview.png" alt="" width="100" height="20">
+        </div>
+        
+        <div class="search center">
+          <form action="">
+            <input type="text" placeholder="Search" />
+            <button> <i class="material-icons">search</i></button>
+          </form>
+          <i class="material-icons mic">mic</i>
+        </div>
+        
+        <div class="icons right">
+          <i class="material-icons">videocam</i>
+          <i class="material-icons">apps</i>
+          <i class="material-icons">notifications</i>
+          <i class="material-icons display-this">account_circle</i>
+        </div>
+       </header>
+      
+ 
+       
+      <main>
+
+         
+          <div class="side-bar">
+<!-- <div class=”side-bar”> -->
+
+    
+
+    <div class=”side-bar”>
+        <div class="nav">
+          <a class="nav-link active">
+             <i class="material-icons">home</i>
+             <span>Home</span>
+          </a>
+          <a class="nav-link">
+             <i class="material-icons">local_fire_department</i>
+             <span>Trending</span>
+          </a>
+          <a class="nav-link">
+             <i class="material-icons">subscriptions</i>
+             <span>Subscriptions</span>
+          </a>
+        </div>
+        <hr>
+        </div>
+
+        <!-- <div class="nav">
+     hr -->
+    <a class="nav-link">
+        <i class="material-icons">library_add_check</i>
+        <span>Library</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">history</i>
+        <span>History</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">play_arrow</i>
+        <span>Your Videos</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">watch_later</i>
+        <span>Watch Later</span>
+     </a>
+     <a class="nav-link">
+        <i class="material-icons">thumb_up</i>
+        <span>Liked Videos</span>
+     </a>
+ <!-- </div> -->
+  
+  <!-- </div> -->
+
+          </div>
+          <div class="content">
+
+ <div class="chips" >
+         <div class="chips__item chips__item--selected">
+             All
+         </div>
+         <div class="chips__item">
+             Inzamam Malik
+         </div>
+         <div class="chips__item">
+             Ai Chatbot
+         </div>
+         <div class="chips__item">
+             SMIT
+         </div>
+         <div class="chips__item">
+             Artificial Intelligence
+         </div>
+         <div class="chips__item">
+             Web 3.0
+         </div>
+         <div class="chips__item">
+             Angular Js
+         </div>
+         <div class="chips__item">
+             Metaverse
+         </div>
+         <div class="chips__item">
+             PIAIC
+         </div>
+         <div class="chips__item">
+             Peshawar
+         </div>
+         
+     </div>
+
+            <div class="videos">
+                <!-- a video starts -->
+                  <div class="video">
+                     <div class="thumbnail">
+                     <a href="https://www.youtube.com/watch?v=Vw0O0-j6drw&pp=ygUMc2FiaXIgc2hha2ly"><img src="pic/sabir.jpeg" alt="" width="30" height="20" /></a>   
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="pic/sabirlogo.jpeg" alt="" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                  Sabir shkir video
+                               </h3>
+                               <a href="https://www.youtube.com/@SabirShakir">
+                                      saber shakir
+                                </a>
+                                <span> 4M Views • 4 Months Ago </span>
+                           </div>
+                         </div>
+              
+                       </div>
+                 <!-- a video Ends -->
+                 <div class="video">
+                    <div class="thumbnail">
+                    <a href="https://www.youtube.com/watch?v=1999OEYo52A"><img src="pic/imran.jpeg" alt="" /></a>   
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="pic/imranlogo.jpeg" alt="" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                                 PM imran khan speech
+                              </h3>
+                              <a href="https://www.youtube.com/@ImranKhanOfficialChannel">
+                                    Imran khan
+                               </a>
+                               <span> 8M Views • 6 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+
+
+
+
+
+
+
+
+
+                      <div class="video">
+                        <div class="thumbnail">
+                        <a href="https://www.youtube.com/watch?v=98wt35CTG4w&t=264s&pp=ygUNaW56YW1hbSBtYWxpaw%3D%3D"><img src="pic/inzmam.jpeg" alt="" /></a>   
+                         </div>
+                 
+                           <div class="details">
+                              <div class="author">
+                                 <img src="pic/inzmam.jpeg" alt="" />
+                              </div>
+                              <div class="title">
+                                 <h3>
+                                     Inzimam Malik AI  Chatbot
+                                  </h3>
+                                  <a href="https://www.youtube.com/@InzamamMalik">
+                                       Inziman Malik
+                                   </a>
+                                   <span> 22M Views • 3 Months Ago </span>
+                              </div>
+                            </div>
+                 
+                          </div>
+
+
+
+
+
+
+
+
+
+
+                          <div class="video">
+                            <div class="thumbnail">
+                             <a href="https://www.youtube.com/watch?v=j7K5FBCJFDg"><img src="pic/irfan.jpeg" alt="" /></a>  
+                             </div>
+                     
+                               <div class="details">
+                                  <div class="author">
+                                     <img src="pic/irfanlogo.png" alt="" />
+                                  </div>
+                                  <div class="title">
+                                     <h3>
+                                         Irfan mailk video
+                                      </h3>
+                                      <a href="https://www.youtube.com/@muhammadirfanmalik">
+                                       Irfan malik
+                                       </a>
+                                       <span> 34M Views • 3 Months Ago </span>
+                                  </div>
+                                </div>
+                     
+                              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              <div class="video">
+                                <div class="thumbnail">
+                                 <a href="https://www.youtube.com/watch?v=98wt35CTG4w&t=264s&pp=ygUNaW56YW1hbSBtYWxpaw%3D%3D"><img src="pic/inzmam2.jpeg" alt="" /></a>  
+                                 </div>
+                         
+                                   <div class="details">
+                                      <div class="author">
+                                         <img src="pic/inzmam.jpeg" alt="" />
+                                      </div>
+                                      <div class="title">
+                                         <h3>
+                                             Inzmam Malik AI  chatbot class in peshawer
+                                          </h3>
+                                          <a href="https://www.youtube.com/@InzamamMalik">
+                                                 Inzmam malik
+                                           </a>
+                                           <span> 344M Views • 5 Months Ago </span>
+                                      </div>
+                                    </div>
+                         
+                                  </div>
+
+
+
+
+
+
+                                  <div class="video">
+                                    <div class="thumbnail">
+                                     <a href="https://www.youtube.com/watch?v=OS9sJ1_g7u0&pp=ygUUaW1yYW4gcnlheiBraGFuIGtoYW4%3D"><img  src="pic/ryaz.jpeg" alt="" 
+                                     /></a>  
+                                     </div>
+                             
+                                       <div class="details">
+                                          <div class="author">
+                                             <img src="pic/ryazlogo.jpeg" alt="" />
+                                          </div>
+                                          <div class="title">
+                                             <h3>
+                                                 Imran reyaz khan  went to Home 
+                                              </h3>
+                                              <a href="https://www.youtube.com/@imranriazkhan1">
+                                                     Imarn reyaz khan
+                                               </a>
+                                               <span> 233M Views • 5 Months Ago </span>
+                                          </div>
+                                        </div>
+                             
+                                      </div>
+
+
+
+
+
+                                      <div class="video">
+                                        <div class="thumbnail">
+                                         <a href="https://www.youtube.com/watch?v=j7K5FBCJFDg"> <img src="pic/irfan1.jpeg" alt="" /></a> 
+                                         </div>
+                                 
+                                           <div class="details">
+                                              <div class="author">
+                                                 <img src="pic/irfanlogo.png" alt="" />
+                                              </div>
+                                              <div class="title">
+                                                 <h3>
+                                                     Irman Malik AI  is  for every one
+                                                  </h3>
+                                                  <a href="https://www.youtube.com/@muhammadirfanmalik">
+                                                         Irfan Malik
+                                                   </a>
+                                                   <span> 4M Views • 1 Months Ago </span>
+                                              </div>
+                                            </div>
+                                 
+                                          </div>
+
+
+
+
+
+
+
+                                          <div class="video">
+                                            <div class="thumbnail">
+                                             <a href="https://www.youtube.com/watch?v=1999OEYo52A"><img src="pic/imran3.jpeg" alt="" /></a>  
+                                             </div>
+                                     
+                                               <div class="details">
+                                                  <div class="author">
+                                                     <img src="pic/imranlogo.jpeg" alt="" />
+                                                  </div>
+                                                  <div class="title"
+                                                     <h3>
+                                                         Imran khan  is  the king of muslims
+                                                      </h3>
+                                                      <a href="https://www.youtube.com/@ImranKhanOfficialChannel">
+                                                         Imran Khan
+                                                       </a>
+                                                       <span> 2323M Views • 2 Months Ago </span>
+                                                  </div>
+                                                </div>
+                                     
+                                              </div>
+
+
+
+
+
+
+
+
+                                              <div class="video">
+                                                <div class="thumbnail">
+                                                 <a href="https://www.youtube.com/watch?v=Vw0O0-j6drw&pp=ygUMc2FiaXIgc2hha2ly"><img src="pic/sabir2.jpeg" alt="" /></a>  
+                                                 </div>
+                                         
+                                                   <div class="details">
+                                                      <div class="author">
+                                                         <img src="pic/sabirlogo.jpeg" alt="" />
+                                                      </div>
+                                                      <div class="title">
+                                                         <h3>
+                                                             shaber shakir is out of country
+                                                          </h3>
+                                                          <a href="https://www.youtube.com/@SabirShakir">
+                                                               Saber shakir  
+                                                           </a>
+                                                           <span> 3M Views • 4Months Ago </span>
+                                                      </div>
+                                                    </div>
+                                         
+                                                  </div>
+
+
+
+
+
+
+
+
+
+
+                                                  <div class="video">
+                                                    <div class="thumbnail">
+                                                     <a href="https://www.youtube.com/watch?v=1999OEYo52A"> <img src="pic/imran2.jpeg" alt="" /></a> 
+                                                     </div>
+                                             
+                                                       <div class="details">
+                                                          <div class="author">
+                                                             <img src="pic/imranlogo.jpeg" alt="" />
+                                                          </div>
+                                                          <div class="title">
+                                                             <h3>
+                                                               Imran khan  is  
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            
+                                                               
+                                                               X PM
+                                                              </h3>
+                                                              <a href="https://www.youtube.com/@ImranKhanOfficialChannel">
+                                                                     Imran khan 
+                                                               </a>
+                                                               <span> 2M Views • 3 Months Ago </span>
+                                                          </div>
+                                                        </div>
+                                             
+                                                      </div>
+
+
+
+                                                      <div class="video">
+                                                        <div class="thumbnail">
+                                                      <a href="https://www.youtube.com/watch?v=OS9sJ1_g7u0&pp=ygUUaW1yYW4gcnlheiBraGFuIGtoYW4%3D"><img src="pic/images (1).jpeg" alt="" /></a>    
+                                                         </div> 
+                                                 
+                                                           <div class="details">
+                                                              <div class="author">
+                                                                 <img src="pic/ryazlogo.jpeg" alt="" />
+                                                              </div>
+                                                              <div class="title">
+                                                                 <h3>
+                                                                   Sumudu Siriwardana
+                                                                  </h3>
+                                                                  <a href="https://www.youtube.com/@imranriazkhan1">
+                                                                         Imran reyaz khan
+                                                                   </a>
+                                                                   <span> 2M Views • 3 Months Ago </span>
+                                                              </div>
+                                                            </div>
+                                                 
+                                                          </div>
+
+
+
+                                                          <div class="video">
+                                                            <div class="thumbnail">
+                                                             <a href="https://www.youtube.com/watch?v=1999OEYo52A"><img src="pic/imran1.jpeg" alt="" /></a>  
+                                                             </div>
+                                                     
+                                                               <div class="details">
+                                                                  <div class="author">
+                                                                     <img src="pic/imranlogo.jpeg" alt="" />
+                                                                  </div>
+                                                                  <div class="title">
+                                                                     <h3>
+                                                                         Introverts & Conte Siriwardana
+                                                                      </h3>
+                                                                      <a href="https://www.youtube.com/@ImranKhanOfficialChannel">
+                                                                             Imaran khan
+                                                                       </a>
+                                                                       <span> 2M Views • 3 Months Ago </span>
+                                                                  </div>
+                                                                </div>
+                                                     
+                                                              </div>
+               </div>
+
+
+          </div>
+      </main>
+  <!-- Main Body Ends -->
+</body>
+</html>
